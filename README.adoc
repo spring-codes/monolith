@@ -1,3 +1,39 @@
 = Monolith Kotlin Springboot
 
 A codebase for monolith application, based on spring boot.
+
+== Getting Started
+
+https://start.spring.io/#!type=gradle-project&language=kotlin&platformVersion=2.3.4.RELEASE&packaging=jar&jvmVersion=15&groupId=com.cheroliv.codebase&artifactId=monolith&name=monolith&description=Codebase%20for%20a%20kotlin%20spring%20boot%20monolith%20web%20application&packageName=com.cheroliv.codebase.monolith&dependencies=webflux,data-jpa,data-r2dbc,h2,validation[start.spring.io generation]
+
+
+== Run it!
+[source,bash]
+```
+$ ./gradlew bootRun
+```
+
+
+== Reference Documentation
+For further reference, please consider the following sections:
+
+* [Official Gradle documentation](https://docs.gradle.org)
+* [Spring Boot Gradle Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/gradle-plugin/reference/html/)
+* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/gradle-plugin/reference/html/#build-image)
+* [Coroutines section of the Spring Framework Documentation](https://docs.spring.io/spring/docs/5.2.9.RELEASE/spring-framework-reference/languages.html#coroutines)
+* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/htmlsingle/#boot-features-jpa-and-spring-data)
+* [Spring Data R2DBC](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/html/spring-boot-features.html#boot-features-r2dbc)
+* [Validation](https://docs.spring.io/spring-boot/docs/2.3.4.RELEASE/reference/htmlsingle/#boot-features-validation)
+
+== Guides
+The following guides illustrate how to use some features concretely:
+
+* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+* [Acessing data with R2DBC](https://spring.io/guides/gs/accessing-data-r2dbc/)
+
+== Additional Links
+These additional references should also help you:
+
+* [Gradle Build Scans – insights for your project's build](https://scans.gradle.com#gradle)
+* [R2DBC Homepage](https://r2dbc.io)
+
